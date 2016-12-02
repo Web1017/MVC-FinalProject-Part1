@@ -1,6 +1,7 @@
-﻿@*Comp229 MVC Restaurant Assignment
+﻿@*Comp229 MVC Final Project - Part 1
+Comp229-006
 Mudrak  Patel : 300878960
-Javid Niftaliyeve : 300742916*@
+Javid Niftaliyev : 300742916*@
 
 <!DOCTYPE html>
 <html>
@@ -14,11 +15,11 @@ Javid Niftaliyeve : 300742916*@
 
 </head>
 <body>
-    <div class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
+                    <span class="fa fa-coffee"> Home</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
@@ -30,7 +31,7 @@ Javid Niftaliyeve : 300742916*@
                     <li>@Html.ActionLink("Home", "../Home/Index", "Home", new { @class = "linkDecoration" })</li>
                     <li>@Html.ActionLink("Contact", "../Home/Contact", "Home", new { @class = "linkDecoration" })</li>
                     <li>@Html.ActionLink("Menu", "../Menu_List/Index", "Menu_List", new { @class = "linkDecoration" })</li>
-                    <li>@Html.Partial("_LoginPartial")</li>
+                    <li>@Html.Partial("_LoginPartial", new { @class = "linkDecoration" })</li>
                 </ul>
               
                     @*NOTE: Please DONOT REMOVE the commented Html.Partial() below*@
@@ -42,8 +43,9 @@ Javid Niftaliyeve : 300742916*@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Mudrak Patel and Javid Niftaliyev</p>
+          <!--  <p>&copy; @DateTime.Now.Year - Mudrak Patel and Javid Niftaliyev</p> -->
         </footer>
+    
     </div>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")

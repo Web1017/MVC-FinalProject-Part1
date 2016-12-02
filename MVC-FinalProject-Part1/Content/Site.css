@@ -44,19 +44,23 @@ textarea {
     Styling for Index.cshtml page for Home view goes here
 */
 .img-responsive.indexView {
-    background-image: url(http://vanmag.com/wp-content/uploads/2015/04/header_CactusClub_CarloRicci.jpg);
+    background-image: url(cafe2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: -15px -10px -10px 0px;
 }
 
 .cafeSocietyText {
-    font-family: 'Pacifico', cursive;
-    font-size: 80px;
-    color: white;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    color: darkgrey;
     position: relative;
+    font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
     z-index: 1000;
-    text-shadow: 5px 5px 5px #35bee4, -5px -5px 5px #41d816;
+    /*text-shadow: 5px 5px 5px #35bee4, -5px -5px 5px #41d816;*/
 }
 
 .restaurantTextBody.col-lg-pull-5 {
@@ -69,7 +73,7 @@ textarea {
 }
 
 .linkDecoration {
-    font-size: 23px;
+    font-size: 17px;
     font-family: 'Russo One', sans-serif;
 }
 /**
@@ -183,4 +187,47 @@ th {
     width: 450px;
     opacity: 1.0;
     background-size: cover;
+}
+
+.image1 { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2{
+      position: absolute; 
+   top: 9px;
+   left: 0; 
+   width: 100%; 
+    font-family: "Perpetua", Cambria, "Times New Roman", Times, serif;
+    color: inherit;
+    position: relative;
+    font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+    text-rendering:optimizeLegibility;
+}
+
+h3{
+      position: absolute; 
+   top: 9px;
+   left: 0; 
+   width: 100%; 
+    font-family: "Perpetua", Cambria, "Times New Roman", Times, serif;
+    color: inherit;
+    position: relative;
+    font-size: 33px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+    text-rendering:optimizeLegibility;
+}
+.image2{
+    float:right;
+    margin-right:333px;
+}
+
+p{
+    text-align:center;
 }

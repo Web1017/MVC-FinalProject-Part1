@@ -186,14 +186,20 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\images\about1.jpg" />
     <Content Include="Assets\images\cafe1.jpg" />
+    <Content Include="Assets\images\cafe2.jpg" />
     <Content Include="Assets\images\ContactPageWallpaper.jpg" />
     <Content Include="Assets\images\detailsPageWallpaper.jpg" />
+    <Content Include="Assets\images\dinner1.jpg" />
     <Content Include="Assets\images\facebookIcon.png" />
     <Content Include="Assets\images\icon.ico" />
     <Content Include="Assets\images\IndexPageWallpaper.jpg" />
     <Content Include="Assets\images\instagramIcon.png" />
+    <Content Include="Assets\images\menu1.jpg" />
+    <Content Include="Assets\images\menu2.png" />
     <Content Include="Assets\images\MenuPageWallpaper.jpg" />
+    <Content Include="Assets\images\order1.png" />
     <Content Include="Assets\images\twitterIcon.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
